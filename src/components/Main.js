@@ -24,11 +24,17 @@ function Main() {
         return <Resume />;
         
     }
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     
     return (
-        <NavHeader currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div>
+            <NavHeader currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
         <Footer />
+        </div>
+        
     );
 }
 
