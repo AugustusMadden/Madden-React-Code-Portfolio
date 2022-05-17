@@ -15,15 +15,14 @@ function Main() {
         if (currentPage === 'About') {
             return <About />;
         } 
-        else if (currentPage === 'Contact') {
+        if (currentPage === 'Contact') {
             return <Contact />;
         } 
-        else if (currentPage === 'Portfolio') {
+        if (currentPage === 'Portfolio') {
             return <Portfolio />;
         } 
-        else if (currentPage === 'Resume') {
-            return <Resume />;
-        }
+        return <Resume />;
+        
     }
     
     return (
