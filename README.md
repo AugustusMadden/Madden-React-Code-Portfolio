@@ -1,5 +1,30 @@
 # Madden-React-Code-Portfolio
 
+ ## Description
+  Programmable web application capable of functioning online or offline. Heavily relies on Babel, Concurrently, and the webpack suite for building modules, syntax management, and general optimization. 
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#License)
+  
+  ## Installation
+
+   To add the application file directly to your desktop:
+
+      - Go to https://github.com/AugustusMadden/Madden-React-Code-Portfolio
+      - Press the green code button on the top-right.
+      - Open Terminal/GitBash, and navigate to the space where you want the file to exist.
+      - Use the command `git clone <url>` and download.
+      - Open the folder in VS Code or your preferred coding software
+
+
+  ## Credits
+   Thanks to MDN and W3 for support documentation.
+
+  ## License
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
