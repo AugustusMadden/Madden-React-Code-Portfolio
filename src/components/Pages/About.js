@@ -9,7 +9,7 @@ export default function About() {
             </p>
             <br></br>
             <p>
-            Proffesional Information
+            Profesional Information
             </p>
         </div>
         
