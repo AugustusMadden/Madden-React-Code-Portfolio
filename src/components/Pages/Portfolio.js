@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './Project';
 
 import textEditImg from '../../assets/TextEdit.PNG'
 import workDayImg from '../../assets/WD.PNG'
@@ -30,30 +31,9 @@ const projects = [
 
 export default function Portfolio() {
     return (
-        <div>
-            <h1>Coding Portfolio</h1>
-            <ul className="list">
-                {projects.map(item => (
-                    <li className="list-item" key={item.id}>
-                         <div className="container">
-                                <div className="card">
-                                    <img
-                                        className="card-img"
-                                        src={item.img}
-                                        width={100}
-                                        height={100}
-                                        alt=""
-                                    />
-                                    <div className="card-body">
-                                        <h4 className="card-title">Name: {item.name}</h4>
-                                        <a href={item.repoURL} className="card-text">Github Code Repository</a>
-                                        <a href={item.deployURL} className="card-text">Deployed Application</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    ))}
-            </ul>
-        </div>
+      <div>
+        <h1>Coding Portfolio</h1>
+        <Project projects = { projects } />
+      </div>
     );
-}
+  }

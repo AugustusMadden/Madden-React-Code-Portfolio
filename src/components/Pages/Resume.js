@@ -1,6 +1,6 @@
 import React from 'react';
 
-import resumeImg from '../../assets/Madden_Resume.pdf'
+import resumeImg from '../../assets/Madden_Resume.jpg'
 
 
 export default function Resume() {

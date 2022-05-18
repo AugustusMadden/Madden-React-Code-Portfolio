@@ -61,8 +61,8 @@ export default function Contact() {
           value={message}
           form="contactForm"
           name="message"
-          rows="15"
-          cols="25"
+          rows="3"
+          cols="55"
           onChange={handleInputChange}
           placeholder="message"
         />
