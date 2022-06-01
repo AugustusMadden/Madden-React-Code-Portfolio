@@ -1,8 +1,9 @@
 import React from 'react';
+import './Styles/Navheader.css'
 
 export default function NavHeader({ currentPage, handlePageChange }) {
     return (
-      <header>
+      <div className="jumbotron">
         <ul className="nav nav-header">
           <li className="nav-item">
             <a
@@ -41,6 +42,6 @@ export default function NavHeader({ currentPage, handlePageChange }) {
             </a>
           </li>
         </ul>
-      </header>
+      </div>
     );
 }

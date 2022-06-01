@@ -1,31 +1,31 @@
 import React from 'react';
 import Project from './Project';
 
-import textEditImg from '../../assets/TextEdit.PNG'
-import workDayImg from '../../assets/WD.PNG'
-import noteTakerImg from '../../assets/NT.PNG'
+import firstImage from '../../assets/TextEdit.PNG'
+import secondImage from '../../assets/WD.PNG'
+import thirdImage from '../../assets/NT.PNG'
 
 const projects = [
     {
         id: 1,
-        name: "Text Editor",
-        img: textEditImg,
-        repoURL: "https://github.com/AugustusMadden/TextEditor",
-        deployURL: "https://dry-river-02816.herokuapp.com/"
+        name: "IVDB",
+        img: firstImage,
+        repoURL: " https://github.com/AugustusMadden/VDB-App", 
+        deployURL: "https://tranquil-sierra-28921.herokuapp.com/"
     },
     {
         id: 2,
-        name: "WorkDay Scheduler",
-        img: workDayImg,
-        repoURL: "https://github.com/AugustusMadden/workDay-scheduler",
-        deployURL: "https://augustusmadden.github.io/workDay-scheduler/"
+        name: "Auto Auction",
+        img: secondImage,
+        repoURL: "https://github.com/AugustusMadden/madden-autoAuction",
+        deployURL: "https://protected-headland-13908.herokuapp.com/"
     },
     {
         id: 3,
-        name: "Note Taker App",
-        img: noteTakerImg,
-        repoURL: "https://github.com/AugustusMadden/noteTaker-Repo",
-        deployURL: "https://still-river-81456.herokuapp.com/"
+        name: "Text Editor PWA",
+        img: thirdImage,
+        repoURL: "https://github.com/AugustusMadden/TextEditor",
+        deployURL: "https://tranquil-sierra-28921.herokuapp.com/"
     },
 ]
 
