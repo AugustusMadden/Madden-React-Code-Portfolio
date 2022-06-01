@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from './Project';
 
-import firstImage from '../../assets/TextEdit.PNG'
-import secondImage from '../../assets/WD.PNG'
-import thirdImage from '../../assets/NT.PNG'
+import firstImage from '../../assets/IVDB.png'
+import secondImage from '../../assets/AutoAuction.png'
+import thirdImage from '../../assets/TextEdit.PNG'
 
 const projects = [
     {

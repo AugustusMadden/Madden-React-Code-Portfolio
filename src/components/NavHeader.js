@@ -1,5 +1,6 @@
 import React from 'react';
 import './Styles/Navheader.css'
+import Resume from '../assets/Madden_Resume.pdf'
 
 export default function NavHeader({ currentPage, handlePageChange }) {
     return (
@@ -25,9 +26,7 @@ export default function NavHeader({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
-              href="#resume"
-              onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              href={Resume}
             >
               Resume
             </a>
