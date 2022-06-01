@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/Madden-React-Code-Portfolio/static/css/main.db585270.css",
-    "main.js": "/Madden-React-Code-Portfolio/static/js/main.5bf3a318.js",
+    "main.js": "/Madden-React-Code-Portfolio/static/js/main.bbf5074d.js",
+    "static/media/IVDB.png": "/Madden-React-Code-Portfolio/static/media/IVDB.cec0b9cbb1474090940c.png",
+    "static/media/Madden_Resume.pdf": "/Madden-React-Code-Portfolio/static/media/Madden_Resume.c60bcaf299466bc37584.pdf",
+    "static/media/AutoAuction.png": "/Madden-React-Code-Portfolio/static/media/AutoAuction.f7dc61821fbb8a2db79f.png",
     "static/media/Madden_Resume.jpg": "/Madden-React-Code-Portfolio/static/media/Madden_Resume.0c6f562e6e3781a71aff.jpg",
-    "static/media/WD.PNG": "/Madden-React-Code-Portfolio/static/media/WD.77933614d61cae5820ba.PNG",
-    "static/media/NT.PNG": "/Madden-React-Code-Portfolio/static/media/NT.1d5d8db841a0fda8664c.PNG",
     "static/media/TextEdit.PNG": "/Madden-React-Code-Portfolio/static/media/TextEdit.bd5ef2cb78df328a7c8f.PNG",
     "index.html": "/Madden-React-Code-Portfolio/index.html",
     "main.db585270.css.map": "/Madden-React-Code-Portfolio/static/css/main.db585270.css.map",
-    "main.5bf3a318.js.map": "/Madden-React-Code-Portfolio/static/js/main.5bf3a318.js.map"
+    "main.bbf5074d.js.map": "/Madden-React-Code-Portfolio/static/js/main.bbf5074d.js.map"
   },
   "entrypoints": [
     "static/css/main.db585270.css",
-    "static/js/main.5bf3a318.js"
+    "static/js/main.bbf5074d.js"
   ]
 }
