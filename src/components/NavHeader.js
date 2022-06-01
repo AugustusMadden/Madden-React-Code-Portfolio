@@ -27,6 +27,7 @@ export default function NavHeader({ currentPage, handlePageChange }) {
           <li className="nav-item">
             <a
               href={Resume}
+              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
               Resume
             </a>
