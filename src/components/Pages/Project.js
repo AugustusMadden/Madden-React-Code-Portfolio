@@ -5,7 +5,7 @@ export default function Project(props) {
         <div>
             <ul className="list">
                 {props.projects.map(item => (
-                    <li className="list-item" style={{list-style-type: "none"}} key={item.id}>
+                    <li className="list-item" style={{listStyleType: "none"}} key={item.id}>
                          <div className="container">
                                 <div className="card">
                                     <img
