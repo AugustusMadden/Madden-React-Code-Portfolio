@@ -19,6 +19,19 @@
       - Use the command `git clone <url>` and download.
       - Open the folder in VS Code or your preferred coding software
 
+   To commit any updates made:
+   
+      - Open Terminal/GitBash, and navigate to the space where the file exists
+      - Use the command `npm start` to see a preview of your build. Use Control/Command + C to exit
+      - Type `npm run deploy`. Enter password if asked. You should see the following
+
+         - The build folder is ready to be deployed.
+
+         - > 00-practice-app@0.1.0 deploy
+         - > gh-pages -d build
+
+         - Published
+
 
   ## Credits
    Thanks to MDN and W3 for support documentation.
