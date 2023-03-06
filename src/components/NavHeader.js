@@ -4,7 +4,7 @@ import Resume from '../assets/Madden_Resume.pdf'
 
 export default function NavHeader({ currentPage, handlePageChange }) {
     return (
-      <div className="jumbotron">
+      <div className="navbar">
         <ul className="nav nav-header">
           <li className="nav-item">
             <a
