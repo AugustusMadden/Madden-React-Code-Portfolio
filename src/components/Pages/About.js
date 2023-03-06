@@ -5,7 +5,7 @@ export default function About() {
         <div>
             <h1>About Me</h1> 
             <p>
-            My name is Augustus Madden. I am a recent graduate of Drexel University's Westphal College of Media Arts and Design, having earned a Bachelor's degree in Animation and Visual Effects. I've spent most of my life living in the Philadelphia Area. My main hobbies include cooking and avoiding interacting with any form of advertisement as often as physically possible.
+            My name is Augustus Madden. I am a recent graduate of Drexel University's Westphal College of Media Arts and Design, having earned a Bachelor's degree in Animation and Visual Effects. I've spent most of my life living in the Philadelphia Area. Hobbies include cooking, working out, and listening to educational podcasts in my downtime.
             </p>
             <br></br>
             <p>
