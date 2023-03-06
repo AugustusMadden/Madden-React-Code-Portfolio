@@ -1,8 +1,9 @@
 import React from "react";
+import '../Styles/Project.css'
 
 export default function Project(props) {
     return (
-        <div>
+        <div className = "menu-item">
             <ul className="list">
                 {props.projects.map(item => (
                     <li className="list-item" style={{listStyleType: "none"}} key={item.id}>
@@ -11,8 +12,6 @@ export default function Project(props) {
                                     <img
                                         className="card-img"
                                         src={item.img}
-                                        width={100}
-                                        height={500}
                                         alt=""
                                     />
                                     <div className="card-body">

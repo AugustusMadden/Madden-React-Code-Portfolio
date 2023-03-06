@@ -2,9 +2,8 @@
 .navbar {
     justify-content:space-evenly;
     border-width: 1px;
-    border-style: dashed;
     width: 100%;
-    margin: 0 0 75px
+    margin: 0 0 5rem;
     
       
 }
@@ -14,7 +13,7 @@
     padding: 5px;
     margin: auto;
     display:flex;
-    justify-content:center;
+    justify-content:baseline;
     z-index: 100;
     position: fixed;
     top: 0px;
