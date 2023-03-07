@@ -1,12 +1,8 @@
 
 .navbar {
-    
-    justify-content:space-evenly;
     border-width: 1px;
     width: 100%;
-    margin: 0 0 10%;
-    
-      
+    margin: 0 0 10%;   
 }
 
 .nav-header{
@@ -14,7 +10,7 @@
     padding: 5px;
     margin: auto;
     display:flex;
-    justify-content:baseline;
+    justify-content: left;
     z-index: 100;
     position: fixed;
     top: 0px;
