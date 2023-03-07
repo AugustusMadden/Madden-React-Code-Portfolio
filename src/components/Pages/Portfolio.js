@@ -33,7 +33,9 @@ export default function Portfolio() {
     return (
       <div>
         <h1>Coding Portfolio</h1>
-        <Project projects = { projects } />
+          <div>
+            <Project projects = { projects } />
+          </div>
       </div>
     );
   }
