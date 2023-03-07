@@ -25,7 +25,7 @@ const projects = [
         name: "Text Editor PWA",
         img: thirdImage,
         repoURL: "https://github.com/AugustusMadden/TextEditor",
-        deployURL: "https://tranquil-sierra-28921.herokuapp.com/"
+        deployURL: "https://dry-river-02816.herokuapp.com/"
     },
 ]
 
