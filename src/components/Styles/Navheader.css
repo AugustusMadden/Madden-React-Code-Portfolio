@@ -1,9 +1,10 @@
 
 .navbar {
+    
     justify-content:space-evenly;
     border-width: 1px;
     width: 100%;
-    margin: 0 0 5rem;
+    margin: 0 0 10%;
     
       
 }
@@ -18,6 +19,9 @@
     position: fixed;
     top: 0px;
     background-color: rgb(73, 73, 73);
+    border-width: 1rem;
+    border-radius: 5px;
+    border-style: double;
 }
 
 .nav-item{

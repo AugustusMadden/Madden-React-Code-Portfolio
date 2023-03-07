@@ -8,6 +8,8 @@ import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
 
+import './Styles/Main.css'
+
 function Main() {
     const [currentPage, setCurrentPage] = useState('Portfolio');
 
@@ -29,7 +31,7 @@ function Main() {
 
     
     return (
-        <div>
+        <div class="page-content">
             <NavHeader currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
         <Footer />
