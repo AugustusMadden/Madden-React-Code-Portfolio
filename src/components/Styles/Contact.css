@@ -1,5 +1,9 @@
 form, textarea {
-    margin: 1rem;
+    margin: .5rem;
     padding: .5rem;
 }
 
+p {
+    
+    padding: .5rem;
+}

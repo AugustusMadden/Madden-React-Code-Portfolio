@@ -39,8 +39,8 @@ export default function Contact() {
     };
 
     return (
-        <div>
-            <p>Please reach out to me for further information</p>
+      <div class="card">
+        <p>Please reach out to me for further information</p>
       <form className="form" id="contactForm">
         <input
           value={email}

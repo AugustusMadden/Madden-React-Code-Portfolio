@@ -16,7 +16,7 @@
     top: 0px;
     background-color: rgb(73, 73, 73);
     border-width: 1rem;
-    border-radius: 5px;
+    border-radius: 2px;
     border-style: double;
 }
 
@@ -24,7 +24,7 @@
     padding: 1px;
     margin: 10px;
     border-width: 5px;
-    border-radius: 5px;
+    border-radius: 50px;
     border-style: solid;
     color:rgb(145, 167, 182);
     background-color: #5e6e88;

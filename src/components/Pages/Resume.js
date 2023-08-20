@@ -6,11 +6,9 @@ import resumeImg from '../../assets/Madden_Resume.pdf'
 export default function Resume() {
     return (
         <div>
-            <img
-                className="card-img"
-                src= {resumeImg}
-                alt=""
-                />
+            <div className="card">
+                <object data = {resumeImg} type="application/pdf" height="700"> </object>
+            </div>
         </div>
     );
 }
