@@ -3,9 +3,9 @@ import './Styles/Navheader.css'
 
 export default function NavHeader({ currentPage, handlePageChange }) {
     return (
-      <div className="navbar">
+      <div className="navbar" sticky="top" >
         <div>
-          <ul className="nav nav-header">
+          <ul className="nav">
             <li className="nav-item">
               <a
                 href="#portfolio"
