@@ -2,16 +2,22 @@
 .navbar {
     border-width: 1px;
     width: 100%;
-    margin: 0 0 5%;
-    display: flex;
+    margin: 0 0 10%;   
+}
+
+.nav-header{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    display:flex;
     justify-content: left;
-    z-index: 1;
+    z-index: 100;
     position: fixed;
-    top: 0;
+    top: 0px;
     background-color: rgb(73, 73, 73);
     border-width: 1rem;
     border-radius: 2px;
-    border-style: double;   
+    border-style: double;
 }
 
 .nav-item{
@@ -32,4 +38,10 @@ a:link{
 }
 a:visited{
     color:rgb(255, 255, 255);
+}
+
+@media (max-width: 800px) {
+    .nav-item {
+        display: none;
+    }
 }
