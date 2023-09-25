@@ -40,7 +40,14 @@ a:visited{
     color:rgb(255, 255, 255);
 }
 
-@media (max-width: 800px) {
+.toggle-button{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .toggle-button{
+        display: flex;
+    }
     .nav-item {
         display: none;
     }
