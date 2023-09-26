@@ -4,6 +4,7 @@ import Project from './Project';
 import firstImage from '../../assets/IVDB.png'
 import secondImage from '../../assets/AutoAuction.png'
 import thirdImage from '../../assets/TextEdit.PNG'
+import fourthImage from '../../assets/travelcheck_white.png'
 
 const projects = [
     {
@@ -27,6 +28,13 @@ const projects = [
         repoURL: "https://github.com/AugustusMadden/TextEditor",
         deployURL: "https://dry-river-02816.herokuapp.com/"
     },
+    {
+      id: 4,
+      name: "TravelCheck",
+      img: fourthImage,
+      repoURL: "https://github.com/AugustusMadden/travelcheck",
+      deployURL: "https://augustusmadden.github.io/travelcheck/"
+  },
 ]
 
 export default function Portfolio() {

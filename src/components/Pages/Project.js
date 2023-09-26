@@ -7,7 +7,7 @@ export default function Project(props) {
             <ul className="list">
                 {props.projects.map(item => (
                     <li className="list-item" style={{listStyleType: "none"}} key={item.id}>
-                         <div className="carrier">
+                         
                                 <div className="card">
                                     <img
                                         className="card-img"
@@ -21,7 +21,7 @@ export default function Project(props) {
                                         <a href={item.deployURL} className="card-text">Deployed Application</a>
                                     </div>
                                 </div>
-                            </div>
+                            
                         </li>
                     ))}
             </ul>

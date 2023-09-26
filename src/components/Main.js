@@ -32,7 +32,7 @@ function Main() {
     
     return (
         <div class="page-content">
-            <NavHeader currentPage={currentPage} handlePageChange={handlePageChange} />
+        <NavHeader currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
         <Footer />
         </div>

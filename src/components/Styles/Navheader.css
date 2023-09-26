@@ -2,7 +2,7 @@
 .navbar {
     border-width: 1px;
     width: 100%;
-    margin: 0 0 10%;   
+    margin: 0 0 10%;
 }
 
 .nav-header{
@@ -38,4 +38,10 @@ a:link{
 }
 a:visited{
     color:rgb(255, 255, 255);
+}
+
+@media (max-width: 800px) {
+    .navbar{
+        display: none;
+    }
 }
