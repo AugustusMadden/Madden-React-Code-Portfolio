@@ -1,9 +1,12 @@
+h1 { 
+    margin: 5%;
+}
+
 .list { 
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
     
 }
 

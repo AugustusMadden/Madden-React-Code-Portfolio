@@ -40,7 +40,7 @@ const projects = [
 export default function Portfolio() {
     return (
       <div>
-        <h1>Coding Portfolio</h1>
+        <h1>Projects</h1>
           <div>
             <Project projects = { projects } />
           </div>

@@ -39,23 +39,24 @@ export default function Contact() {
     };
 
     return (
-        <div>
-            <p>Please reach out to me for further information</p>
-      <form className="form" id="contactForm">
-        <input
+      <div className = "formArea">
+        <p>Please reach out to me for further information</p>
+        <form id="contactForm">
+          <input
+          id = "email"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
-        />
-        <input
+          />
+          <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
-        />
+          />
         </form>
         <textarea
           value={message}
@@ -66,6 +67,8 @@ export default function Contact() {
           onChange={handleInputChange}
           placeholder="message"
         />
+        <br />
+        <br />
         <button form="contactForm" type="button" onClick={handleFormSubmit}>Submit</button>
       
       {errorMessage && (
@@ -73,6 +76,6 @@ export default function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-        </div>
+      </div>
     );
 }
