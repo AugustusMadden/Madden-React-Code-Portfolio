@@ -30,8 +30,7 @@
     color:rgb(145, 167, 182);
     background-color: #5e6e88;
     font-family: sans-serif;
-    font-size: small;
-    
+    font-size:larger
 }
 
 a:link{
@@ -42,7 +41,33 @@ a:visited{
 }
 
 @media (max-width: 900px) {
-    #X {
-        display:none;
+    #Z {
+        display: none;
     }
+
+    .nav-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav{
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item{
+        width: 100%;
+        margin: 1px;
+        border-style: solid;
+        color:rgb(145, 167, 182);
+        background-color: #5e6e88;
+        font-family: sans-serif;
+        text-align: center;
+    }
+        /*lighten on hover
+        hide when menu not clicked
+
+        Make the Burger menu Work!
+
+    */
 }

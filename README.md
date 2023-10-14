@@ -23,7 +23,7 @@
    
       - Open Terminal/GitBash, and navigate to the space where the file exists
       - Use the command `npm start` to see a preview of your build. Use Control/Command + C to exit
-      - Type `npm run deploy`. Enter password if asked. You should see the following
+      - Type `npm run deploy`. Enter ssh password when asked. You should see the following
 
          - The build folder is ready to be deployed.
 
