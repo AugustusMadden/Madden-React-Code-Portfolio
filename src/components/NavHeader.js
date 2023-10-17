@@ -5,8 +5,12 @@ import Resume from '../assets/Madden_Resume.pdf'
 export default function NavHeader({ currentPage, handlePageChange }) {
     return (
       <div className="navbar">
+        <div href="#" className="hamburger">
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
         <div className="nav-header" >
-          <div id="Z">HAMBURGER</div>
           <ul className="nav" id="">
             <li className="nav-item">
               <a

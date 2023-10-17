@@ -40,17 +40,53 @@ a:visited{
     color:rgb(255, 255, 255);
 }
 
-@media (max-width: 900px) {
-    #Z {
-        display: none;
+.hamburger {
+    display:none;
+}
+.bar{
+    width: 70%;
+    margin: 2px;
+    font-size: larger;
+    border-width: 2px;
+    border-style:solid;
+    color:rgb(207, 207, 207);
+    background-color: rgb(221, 0, 0);
+    
+}
+
+@media (max-width: 750px) {
+    
+    .hamburger {
+        width: 5rem;
+        height: 3.5rem;
+        margin: .5rem;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        z-index: 101;
+        position: fixed;
+        top: 0px;
+        background-color: rgb(73, 73, 73);
+        border-width: 5px;
+        border-radius: 5px;
+        border-style: solid;
+        align-items: center;
+    }
+
+    .navbar{
+        align-items: right;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+        width: 100%;
     }
 
     .nav-header{
-        display: flex;
+        display: none;
         flex-direction: column;
     }
 
     .nav{
+        
         align-items: center;
         flex-direction: column;
         width: 100%;

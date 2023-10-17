@@ -7,6 +7,8 @@ h1 {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    align-items: center;
     
 }
 
@@ -33,4 +35,13 @@ h1 {
     border-color: #39475e;
     background-color: #597092;
     color: white;
+}
+
+@media (max-width: 750px){
+    .list { 
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 0%;
+    }
 }
