@@ -55,11 +55,17 @@ a:visited{
 }
 
 @media (max-width: 750px) {
+
+    .navbar{
+        padding-left: 10%;
+        justify-content: flex;
+        flex-direction:row-reverse;
+    }
     
     .hamburger {
         width: 10%;
         height: 6%;
-        margin-top: 38%;
+        margin-top: 24px;
         padding: 10px;
         display: flex;
         flex-direction: column;
@@ -73,16 +79,13 @@ a:visited{
         align-items: center;
     }
 
-    .navbar{
-        padding-left: 10%;
-        justify-content: flex-end;
-        flex-direction:initial;
-    }
+    
 
     .nav-header{
         align-items: center;
         display: flex;
-        width: max-content;        
+        width: max-content;
+        margin-top: 75px;        
     }
 
     .nav{
